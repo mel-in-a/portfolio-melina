@@ -1,0 +1,15 @@
+.container {
+    max-width: 1200px;
+}
+
+.jumbo {
+    background-image: url("/images/jumboV2.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+/* .content {
+    padding: 2rem 0;
+
+    font-size: 1.2em;   
+} */

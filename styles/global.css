@@ -4,27 +4,37 @@
 
 @layer base {
     h1 {
-        @apply text-2xl font-medium text-primary;
+        @apply text-3xl font-bold text-primary ;
     }
     h2 {
-        @apply text-xl font-medium text-primary;
+        @apply text-2xl font-bold text-primary ;
     }
-
     h3 {
-        @apply text-lg font-medium text-primary;
+        @apply text-xl font-bold text-primary ;
     }
     h4 {
-        @apply text-md font-medium text-primary;
+        @apply text-lg font-bold text-primary ;
     }
     h5 {
-        @apply text-sm font-medium text-primary;
+        @apply text-sm font-bold text-primary;
     }
     h6 {
-        @apply text-xs font-medium text-primary;
+        @apply text-xs font-bold text-primary;
 
     }
     p {
-        @apply text-base font-normal text-primary;
+        @apply text-lg font-normal pt-5 text-justify;
     }
+ 
+    .line {
+        @apply border-b-4 border-primary w-20 my-3
+    }
+
+    .rowGrid {
+        @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-5;
+    }
+
+  
+
 
 }

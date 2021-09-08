@@ -5,11 +5,14 @@
 .jumbo {
     background-image: url("/images/jumboV2.jpg");
     background-size: cover;
-    height: 400px;
+    max-height: 600px;
 }
 
-/* .content {
+.content {
     padding: 2rem 0;
+}
 
-    font-size: 1.2em;   
-} */
+.page-heading {
+    background: url("/images/funky-lines.png") repeat fixed;
+   
+}

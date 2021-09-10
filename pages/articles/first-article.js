@@ -17,10 +17,24 @@ export default function FirstPost() {
         <title>First Post</title>
       </Head>
       <div className="container mx-auto p-5">
-        <h1>First Post</h1>
+        <h1>Liste des articles</h1>
         <div className="line"></div>
         <div className="rowGrid">
           <CardGradient
+            title="Titre"
+            icon="/images/icons/006-location.png"
+            alt=""
+            text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae nam ad, quas nihil in, delectus tempora distinctio, quidem eum assumenda natus nostrum!"
+            link="/"
+          />
+              <CardGradient
+            title="Titre"
+            icon="/images/icons/006-location.png"
+            alt=""
+            text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae nam ad, quas nihil in, delectus tempora distinctio, quidem eum assumenda natus nostrum!"
+            link="/"
+          />
+              <CardGradient
             title="Titre"
             icon="/images/icons/006-location.png"
             alt=""

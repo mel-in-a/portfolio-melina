@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <html data-theme="mytheme" />
+        <html data-theme="mytheme" lang="fr"/>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"

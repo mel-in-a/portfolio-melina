@@ -1,3 +1,10 @@
+const Posts = ({ article }) => {
+  const posts = fetch("https://jsonplaceholder.typicode.com/posts");
+
+  return <div className="">{article.title} </div>;
+};
+
+
 export const getStaticPath = async () => {
   const result = await fetch(`http://localhost:1337/articles`);
   const data = await result.json();
@@ -24,10 +31,5 @@ export const getStaticProps = async (context) => {
 }
 }
 
-const Posts = ({ article }) => {
-  const posts = fetch("https://jsonplaceholder.typicode.com/posts");
-
-  return <div className="">{article.title} </div>;
-};
 
 export default Posts;

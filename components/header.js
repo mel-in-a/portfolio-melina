@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header flex 0 h-24 w-full bg-white sticky top-0 shadow-xl">
       <div className="container flex justify-between items-center p-5 mx-auto">
-        <Link href="/">
+        <Link href="/" passHref>
           <div className="logo min-w-max cursor-pointer">
             {" "}
             <Image src={LogoImg} alt="Logo Mélina MESSAL" />

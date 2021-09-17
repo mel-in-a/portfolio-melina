@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
 import Header from "./Header";
 import Footer from "./Footer";
-import Link from "next/link";
+
 const name = "Mélina";
 export const siteTitle = "Mélina MESSAL - Développeuse Fullstack - Intégration";
 
